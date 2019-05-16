@@ -25,7 +25,7 @@ return newArray;
 }
 function prependKitten(name)
 {
-var newArray= [...kittens,name];
+var newArray= [name,...kittens];
 return newArray;
 }
 
