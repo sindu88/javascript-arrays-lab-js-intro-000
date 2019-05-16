@@ -29,11 +29,10 @@ var newArray= [name,...kittens];
 return newArray;
 }
 
-
 function RemoveLastKitten()
 {
   var newArray= kittens.slice(kittens.length-1);
-  return newArray
+  return newArray;
 }
 
 function RemoveFirstKitten()
